@@ -1,11 +1,19 @@
 # Valores de texto
-
 name: "Daniel Márquez"
 description: 'Este es un texto'
 apellido: Marquez
 
-#Valores numericos
+#String multilinea
+stringConMuchasLineas: |
+  este es un ejemplo
+  de muchas lineas juntas. 
 
+#String largo con una unica linea
+stringUnicalinea: >
+  Esto se va escribir en una sola linea, 
+  sin importar que esté en varias de estas
+
+#Valores numericos
 edad: 24
 peso: 2.5
 
@@ -13,3 +21,34 @@ peso: 2.5
 esHombre: true
 esUnGato: off 
 esUnAnimal: on
+
+# Objetos | Entidad
+nombreObjeto:
+  nombre: Daniel
+  apellido: Marquez
+  edad: 24
+  padres: tiene_buenos_padres
+
+# Listas #1
+peliculas:
+- name: interestelar
+  year: 2014
+  buena: true
+- name: inception
+  year: 2015
+  buena: false
+
+
+#Lista #2
+lista:
+  - elemento#1
+  - elemento#2
+  - elemento#3
+  - elemento#4
+
+#lista #2
+lista_dos: [data, data1, data2]
+
+
+
+
