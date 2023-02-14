@@ -50,5 +50,9 @@ lista:
 lista_dos: [data, data1, data2]
 
 
+#Variable de ambiente
+environment:
+  NODE_ENV: ${ESTO_SE_REMPLAZARA_POR_UNA_VARIABLE DE AMBIENTE}
+
 
 
