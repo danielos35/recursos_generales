@@ -1,0 +1,15 @@
+# Valores de texto
+
+name: "Daniel Márquez"
+description: 'Este es un texto'
+apellido: Marquez
+
+#Valores numericos
+
+edad: 24
+peso: 2.5
+
+# Boolean || off == false || on true
+esHombre: true
+esUnGato: off 
+esUnAnimal: on
