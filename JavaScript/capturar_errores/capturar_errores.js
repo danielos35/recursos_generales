@@ -7,7 +7,7 @@
 
 
 const createError = function(name){
-    class ValidateConection extends Error {
+    return class ValidateConection extends Error {
         constructor(message){
             super(message)
             this.name = name;
@@ -24,3 +24,5 @@ const conectDataBase = ({user, pasword} = {}) => {
     if(!user) throw new ErrorConection()
     if(!pasword) throw new ErrorConection()
 }
+
+conectDataBase()
